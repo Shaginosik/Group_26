@@ -1,4 +1,4 @@
-# Обновленное дз
+# ДЗ №1
 # Задание 1-9
 a1="Пример строки"    # Создать переменную типа String (строка)
 a2=5                  # Создать переменную типа Integer (целые числа)
@@ -11,18 +11,18 @@ a8=frozenset('text')  # Создать переменную типа Frozen set
 a9= {'text': 7}       # Создать переменную типа Dict
 
 #10 Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
-print('a1=',type(a1))
-print('a2=',type(a2))
-print('a3=',type(a3))
-print('a4=',type(a4))
-print('a5=',type(a5))
-print('a6=',type(a6))
-print('a7=',type(a7))
-print('a8=',type(a8))
-print('a9=',type(a9))
+print('Type_a1=',type(a1))
+print('Type_a2=',type(a2))
+print('Type_a3=',type(a3))
+print('Type_a4=',type(a4))
+print('Type_a5=',type(a5))
+print('Type_a6=',type(a6))
+print('Type_a7=',type(a7))
+print('Type_a8=',type(a8))
+print('Type_a9=',type(a9))
 
 #11 Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
-a="Маша"
+a="Маша "
 b="Миша"
 c=a+b
 print(c)
@@ -32,5 +32,4 @@ print(a1, a2, sep=",")
 
 #13 Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
 print(a1, a2, sep="+")
-
 
