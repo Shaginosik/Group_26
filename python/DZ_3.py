@@ -124,7 +124,7 @@ else:
 currency_convertor = item_2
 if currency_convertor:
     currency_usd = usd_item
-    target_currency = uah_item
+    target_currency = eur_item
     target_currency_amount = 50
     currency_result = 0
     if target_currency == 'eur':
