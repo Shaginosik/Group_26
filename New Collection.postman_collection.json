@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "882f9c74-87b4-406d-a6b4-fee1696bbd89",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Evgeniy&age=39",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Evgeniy"
+						},
+						{
+							"key": "age",
+							"value": "39"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
