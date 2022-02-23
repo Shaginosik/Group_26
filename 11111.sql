@@ -8,6 +8,7 @@ id serial primary key,
 employee_name Varchar(50) not null
 )
 
+ 
 select * from employees
 
 -- 3) Создать таблицу salary
@@ -141,7 +142,6 @@ values ('Junior Python developer'),
 --- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
 --- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
 -- 11) Наполнить таблицу roles_employee 40 строками:
-
 	create table roles_employee(
 	id serial primary key,
 	employee_id int not null unique,
