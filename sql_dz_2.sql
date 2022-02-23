@@ -2,7 +2,7 @@
 --- id. serial,  primary key,
 --- employee_name. Varchar(50), not null
 -- 2) Ќаполнить таблицу employee 70 строками. (выполнено через Python)
-
+-- 1. ¬ывести все пол€ и все строки.
 create table employees(
 id serial primary key,
 employee_name Varchar(50) not null
